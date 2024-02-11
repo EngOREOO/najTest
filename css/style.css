@@ -1,0 +1,137 @@
+ /* #->id 
+.->class'
+if u used the p only as example you will target all paragraphes 
+inline style is stronger than other types
+you cant start thhe indentifires with numbers*/
+.divaton {
+ background-color: red;  /* color name */
+ backgroung-color: rgba(255,225,225 / 50%); /* red green blue and alpha channel (color density), and if all of them 0 u will see black color height is 255 */
+ background-color: #FF0000;  /* 00 is lowest and FF is highter */
+ background-image: url(../images/Screenshot\ 2024-01-24\ 152034.png); /* background image*/
+ background-repeat: repeat; /* repeat the image to contain al the content x and y */
+ background-repeat: no-repeat;   /* dont repeat background image*/
+ background-repeat: repeat-x;  /* repeat the image only x*/
+ background-repeat: repeat-y;  /* repeat the image only y*/
+ background-attachment: scroll;   /* the background image will stay in the postion*/
+ background-attachment: fixed;   /* the background image will be moved with you*/
+ background-position: your position;  /* you have 9 position 1-left top , 2-left center 3-left bottom and the same with right position and dont forget centre top and  center center and center centre*/
+ background-position: left% right%;  /* using percnetage to change background position*/
+ background-position: leftpx :rightpx;  /* using pixels to change position*/
+ background-size: auto;  /* default like you did not change anything */
+ background-size: cover;  /* will cover all containt and can be streached and cut to cover all containt */
+ background-size: contain; /* contain all contain and make the image fully visibel you can use pixels and percentage with all of them*/
+
+
+ padding: 40px;   /* use px and percentage */
+ /* margin: ;  controlle the out margin/border */
+ border-right: 10px solid red ; /* */
+ 
+display:40px inline-block; /* respect margin and padiing and height */
+display: none;
+visibility:40px hidden;
+visibilty: hidden;
+
+overflow:hidden; /* mmakes the extra words hidden if u mademax leghnth*/
+overflow:scroll; /* make u able to scroll to see extra words */
+overflow:auto; /* will make the needed action if it needs scroll will make it*/
+overflow-xory:hidden; 
+
+
+text-align:center;
+text-align:right;
+
+letter-spacing: 2px; /* add spaces betwen words and u can use word-spacing*/
+linr-height:1.6; /* space btwen lines*/
+
+cursor:pointer; /*it means the mouse showing its clickable element*/
+cursor:grab; /*it means the mouse grab anything and move it like banners*/
+cursor:move; /*it means the mouse move anything  like banners*/
+
+position: relative; 
+top: 30%; /*change it to any place u want inother content if u waant*/
+
+
+
+
+text-decoration: none; /* if u have a link as exmple u can remove the underline text*/
+
+widght-container : fit-content; /* make the margin same size as the text*/
+/* you can add al elements in one group like this  */
+.one,
+.two,
+p {
+  text-align: center;
+  background-color: #FF0000;
+  font-size: 40px;
+  margin: 15px;
+  padding: 15px;
+  border-bottom: 5px solid red;
+}
+.one {
+    background-color: red;
+    border: 1px solid green;
+    border-radius: 20px; /* assuming you intended to set border-radius to 20 pixels */
+    width: fit-content;
+    padding: 2px;
+    margin: 2px;
+    position: relative; /* corrected typo from "postion" to "position" */
+    top: 20px; /* corrected missing unit for "top" property */
+}
+.two {
+    background-color: rgb(99, 87, 87);
+    border: 1px solid rgb(14, 80, 14);
+    border-radius: 20px; /* assuming you intended to set border-radius to 20 pixels */
+    width: fit-content;
+    padding: 2px;
+    margin: 2px;
+    position: absolute; /* corrected typo from "postion" to "position" */
+    right: 100px; /* corrected missing unit for "top" property */
+    height: 45px;
+    width: 73px;
+    overflow: hidden;
+
+}
+.two {
+    background-color: rgb(99, 87, 87);
+    border: 1px solid rgb(14, 80, 14);
+    border-radius: 20px; /* assuming you intended to set border-radius to 20 pixels */
+    width: fit-content;
+    padding: 2px;
+    margin: 2px;
+    position: fixed; /* corrected typo from "postion" to "position" */
+    right: 100px; /* corrected missing unit for "top" property */
+    height: 45px;
+    width: 73px;
+    overflow: hidden;
+
+}
+.two {
+    background-color: rgb(99, 87, 87);
+    border: 1px solid rgb(14, 80, 14);
+    border-radius: 20px; /* assuming you intended to set border-radius to 20 pixels */
+    width: fit-content;'?
+    .;'
+    padding: 2px;
+    margin: 2px;
+    position: sticky; /* corrected typo from "postion" to "position" */
+    right: 100px; /* corrected missing unit for "top" property */
+    height: 45px;
+    width: 73px;
+    overflow: hidden;
+
+ background: linear-gradient() ;/* mixture colors -> accepts the position like to right, and colors,*/
+ 
+ first-line-style: none;
+    flex-grow: 1; /* make the content strach to full all margin*/
+    
+
+
+display: grid;
+grid-template-columns: 100px 100px 100px 100px; /* number of columns using px and percentage or auto and repeat(num,percentage) */
+grid-template-rows: 100px 110px 100px 100px; /*number for rows height */
+grid-template-area: auto; 
+
+height:100vh; /*To reiterate, VH stands for “viewport height”, which is the viewable screen's height. 100VH would represent 100% of the viewport's height, or the full height of the screen. And of course, VW stands for “viewport width”, which is the viewable screen's width*/
+
+
+}

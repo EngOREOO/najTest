@@ -1,0 +1,18 @@
+.flex{
+width: 600px;
+padding: 20px;
+background-color: red;
+margin: 20px auto;
+overflow: hidden;
+display: flex;
+
+
+}
+.flex div {
+background-color: blue;
+color: aliceblue;
+float: left;
+width: 25%;
+text-align: center;
+padding: 20px;
+}
